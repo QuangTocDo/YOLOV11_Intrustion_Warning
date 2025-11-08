@@ -1,15 +1,17 @@
-# MiAI_Intrusion_Warning
-Demo of Intrusion Warning with OpenCV & Yolo
+# YOLOv11 Intrusion Warning System
 
-Link clip: https://youtu.be/fd0WrwnPhtg <br>
+## Overview
+This project implements an **Intrusion Warning System** using **YOLOv11** for real-time object detection and alert generation. The system is designed to detect unauthorized intrusions in restricted areas (e.g., factories, warehouses, or private properties) using video streams or CCTV feeds.
 
-Note: Các bạn tải file cfg, weight từ https://github.com/AlexeyAB/darknet tại phần Pre-trained models nhé. Tùy bạn chọn model gì mà tải weight tương ứng.
-
-#MìAI <br>
-Fanpage: http://facebook.com/miaiblog<br>
-Group trao đổi, chia sẻ: https://www.facebook.com/groups/miaigroup<br>
-Website: http://miai.vn<br>
-Youtube: http://bit.ly/miaiyoutube<br>
-
+Key features:
+- Real-time detection of intruders.
+- Alerts generation upon detecting suspicious activities.
+- High accuracy using YOLOv11 detection backbone.
+- Optional integration with DeepSORT for multi-object tracking (MOT).
+## Running
+git clone https://github.com/QuangTocDo/YOLOv11_Intrusion_Warning.git
+cd YOLOv11_Intrusion_Warning
+pip install -r setup.txt
+python main.py
 
 
