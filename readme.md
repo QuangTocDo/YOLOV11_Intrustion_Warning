@@ -10,8 +10,11 @@ Key features:
 - Optional integration with DeepSORT for multi-object tracking (MOT).
 ## Running
 git clone https://github.com/QuangTocDo/YOLOv11_Intrusion_Warning.git
+
 cd YOLOv11_Intrusion_Warning
+
 pip install -r setup.txt
+
 python main.py
 
 
