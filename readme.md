@@ -7,7 +7,6 @@ Key features:
 - Real-time detection of intruders.
 - Alerts generation upon detecting suspicious activities.
 - High accuracy using YOLOv11 detection backbone.
-- Optional integration with DeepSORT for multi-object tracking (MOT).
 ## Running
 git clone https://github.com/QuangTocDo/YOLOv11_Intrusion_Warning.git
 
