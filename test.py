@@ -45,7 +45,7 @@ if __name__ == "__main__":
     polygon_points = [(100, 100), (500, 100), (500, 400), (100, 400)]
 
     detector = YoloDetect(
-        model_path="yolo11n.pt",
+        model_path="weights/yolo11n.pt",
         detect_class="person",
         conf_threshold=0.5,
         alert_interval=10

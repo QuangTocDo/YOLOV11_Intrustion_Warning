@@ -40,7 +40,7 @@ class YoloDetect:
             self.last_alert = now
 
             # Lưu ảnh cảnh báo (thu nhỏ để gửi nhanh hơn)
-            alert_img_path = "alert.png"
+            alert_img_path = "alert/alert.png"
             resized = cv2.resize(img, (int(img.shape[1] * 0.5), int(img.shape[0] * 0.5)))
             cv2.imwrite(alert_img_path, resized)
 

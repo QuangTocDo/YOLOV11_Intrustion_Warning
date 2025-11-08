@@ -5,7 +5,7 @@ from yolodetect import YoloDetect
 
 points = []
 detector = YoloDetect(
-        model_path="yolo11n.pt",
+        model_path="weights/yolo11n.pt",
         detect_class="person",
         conf_threshold=0.5,
         alert_interval=10
